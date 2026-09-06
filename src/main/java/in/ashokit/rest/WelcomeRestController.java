@@ -35,6 +35,9 @@ public class WelcomeRestController {
 		logger.info("***** greetMsg() execution successfull *****");
 		boolean status = false;
 		logger.info("***** ***************************** *****");
+
+		System.out.println("Hi Ram You are looking fabuleous");
+		
 		return msg;
 	}
 	
